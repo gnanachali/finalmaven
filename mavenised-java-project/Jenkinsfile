@@ -27,7 +27,7 @@ pipeline {
 		steps{
 				bat label: '', script: '''mvn -f mavenised-java-project/pom.xml sonar:sonar \
 				-Dsonar.host.url=http://localhost:9000 \
-				-Dsonar.login=98f12b0f1792ab3898ebdf00d2c4f7b7bccfbb32'''
+				-Dsonar.login=531b8ff1bd97fed808eb0c43c9885176af4419ff'''
 			}
    		}
 	
